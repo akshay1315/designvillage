@@ -1,0 +1,448 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 2% 8%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.15rem;
+  font-weight: 600;
+}
+
+.nav-item {
+  padding: 0 4px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: "Montserrat-Light";
+  color: #fff;
+}
+
+/* Title Section */
+
+#hero {
+  background-color: #1faa59;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+/* .hero-bg {
+  background-image: url("../images/DesignVillage/bg.jpg");
+  opacity: 0.6;
+} */
+#hero nav {
+  text-align: center;
+}
+
+#hero .container-fluid {
+  padding: 3% 10% 2%;
+}
+
+/* Landing Page */
+
+span {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.landing-content {
+  color: white;
+}
+
+.landing-img {
+  width: 80%;
+  margin: 4%;
+}
+
+/* Values Section*/
+#values {
+  height: 250px;
+  background-color: #1faa59;
+  color: white;
+}
+.values-content {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  font-size: 5%;
+}
+
+.val-heading {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-family: "Gentium Book Basic", serif;
+  margin-bottom: 5%;
+}
+
+/* Services Section */
+
+#services {
+  position: relative;
+  background-color: #fff;
+}
+
+.section-heading {
+  color: #1faa59;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-family: "Gentium Book Basic", serif;
+}
+
+.service-title {
+  font-size: 1.5rem;
+  color: #03203c;
+}
+
+.service-box {
+  padding: 2%;
+}
+
+.service-box p,
+h3 {
+  color: #03203c;
+}
+
+.icon {
+  /* color: #ef8172; */
+  color: #66ad47;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+/* .icon:hover {
+  color: #ff4c68;
+} */
+
+/* logo carousal */
+
+/* #custom-logos {
+  height: 200px;
+} */
+
+.customer-logos {
+  margin: 4% 5%;
+}
+
+.slick-slide {
+  margin: 0px 10px;
+}
+.slick-slide img {
+  width: 100%;
+}
+/* Methods Section*/
+
+#methods {
+  position: relative;
+  background-color: #1faa59;
+}
+
+.methods-heading {
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-family: "Gentium Book Basic", serif;
+}
+
+.method-title {
+  font-size: 1.5rem;
+}
+
+.method-box {
+  padding: 2%;
+}
+
+.method-box p,
+h3 {
+  color: #fff;
+}
+
+#methods .icon {
+  /* color: #ef8172; */
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+/* #methods .icon:hover {
+  color: #ff4c68;
+} */
+
+/* Testimonial Section */
+
+/* #testimonials {
+  background-color: #ef8172;
+} */
+
+/* .test-heading {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-family: "Gentium Book Basic", serif;
+  color: black;
+}
+.testimonial-text {
+  color: black;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.testimonial-image {
+  width: 13%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials a {
+  color: #000000;
+}
+.carousel-item em {
+  color: black;
+  font-size: 1.2rem;
+} */
+
+/* Contact Form Styling Starts */
+
+section#contact {
+  background-color: #fff;
+  /* background-image: url("../img/map-image.png");
+  background-position: center;
+  background-repeat: no-repeat; */
+  padding-bottom: 3%;
+}
+section#contact .section-heading {
+  color: #1faa59;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control {
+  border-color: #1faa59;
+}
+section#contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #070606;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}
+#contact button {
+  background-color: #1faa59;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+/* Footer Section */
+#Sitemap {
+  background-color: #1c8d73;
+}
+#Sitemap h1,
+h5 {
+  color: #fff;
+  font-family: "Gentium Book Basic", serif;
+  font-style: italic;
+  font-size: 25px;
+  letter-spacing: 0.1rem;
+}
+
+#Sitemap a {
+  color: #fff;
+}
+
+#Sitemap input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+#Sitemap input[type="submit"] {
+  background-color: #fff;
+  color: #03203c;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+::marker {
+  color: #fff;
+}
+#Sitemap input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: #fff;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+.copy-right {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .navbar-toggler-icon {
+    font-size: 2rem;
+  }
+  .nav-link {
+    color: #fff;
+  }
+  .landing-about h1 {
+    font-size: 1.7rem;
+  }
+  .landing-about span {
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    margin-left: -0.5%;
+  }
+  .landing-content {
+    width: 100%;
+  }
+  .landing-img {
+    width: 95%;
+  }
+
+  #values {
+    height: 180px;
+    background-color: #03203c;
+    color: white;
+  }
+
+  .service-title {
+    font-size: 1.5rem;
+  }
+
+  .service-box {
+    padding: 4.5%;
+  }
+  .service-box p {
+    font-size: 1rem;
+  }
+
+  .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .val-heading {
+    font-size: 2rem;
+  }
+  .values-content {
+    text-align: center;
+    width: 80%;
+    font-size: 0.7rem;
+    margin: 0 auto;
+  }
+  .values-content h4 {
+    font-size: 1rem;
+  }
+
+  .section-heading {
+    font-size: 2.3rem;
+  }
+}
